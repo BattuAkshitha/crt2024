@@ -1,11 +1,10 @@
-Write a program to find ASCII value
+Read a character and print an exact code
 
 #include <stdio.h>
 
 int main() {
-  char a=97;
+  char a;
   scanf("%c",&a);
     printf("%d",a);
-
-    return 0;
+ return 0;
 }
